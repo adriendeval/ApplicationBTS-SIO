@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-body, * {
+body, button, input {
   font-family: 'Space Grotesk', sans-serif;
+  cursor : url('mouse/cursor-fill.svg') 0 0, auto;
+}
+
+a, button {
+  cursor: url('mouse/hand-index-thumb-fill.svg') 0 0, pointer;
+}
+
+p, span, input, textarea, h1, h2, h3 {
+  cursor: url('mouse/cursor-text.svg') 0 0, text;
 }
 
 h1, h2, h3 {
@@ -31,7 +40,8 @@ footer {
 }
 
 .menu {
-  border: 1px solid darkgray;
+  border: none;
+  border-radius: 4px;
   border-radius: 6px;
   justify-content: center;
   margin-top: 16px;
@@ -42,12 +52,15 @@ footer {
 
 .menu td {
   padding: 8px;
-  width: 50%;
+  border: 1px solid darkgray;
+  border-radius: 6px;
+  width: 20%;
+  height: 36px;
+  text-align: center;
 }
 
 a {
   color: #55679C;
-  /* text-decoration: underline; */
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 4px;
@@ -56,7 +69,6 @@ a {
 }
 
 a:hover {
-  /* color: #55679C; */
   text-decoration: none;
   background-color: #7C93C320;
 }
@@ -84,4 +96,19 @@ button:hover {
 
 button:active {
   background-color: #7C93C350;
+}
+
+.footerLink {
+  display: inline-block;
+}
+
+input[type="text"], input[type="password"] {
+  border: 1px solid #55679C;
+  border-radius: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #55679C;
+  outline: none;
 }
