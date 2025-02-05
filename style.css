@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body, * {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #1E2A5E;
+}
+
+header {
+  background-color: #F5F5F5;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  margin: -8px;
+  margin-top: -16px;
+}
+
+::selection {
+  background-color: #7C93C350;
+}
+
+footer {
+  background-color: #F5F5F5;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  margin: -8px;
+  margin-bottom: -16px;
+  text-align: center;
+}
+
+.menu {
+  border: 1px solid darkgray;
+  border-radius: 6px;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.menu td {
+  padding: 8px;
+  width: 50%;
+}
+
+a {
+  color: #55679C;
+  /* text-decoration: underline; */
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 6px;
+}
+
+a:hover {
+  /* color: #55679C; */
+  text-decoration: none;
+  background-color: #7C93C320;
+}
+
+a:active {
+  color: #55679C;
+  background-color: #7C93C350;
+}
+
+button {
+  background-color: white;
+  color: #55679C;
+  border: 1px solid #55679C;
+  border-radius: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7C93C320;
+}
+
+button:active {
+  background-color: #7C93C350;
+}
