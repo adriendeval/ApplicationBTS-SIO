@@ -9,4 +9,6 @@ Voici la page de présentation du projet de 4 étudiants en BTS SIO option SLAM 
 - [@KLenesley](https://github.com/KLenesley)
 - [@Brewen06](https://github.com/Brewen06)
 
-Palette de couleurs utilisée : https://www.colorhunt.co/palette/7c93c355679c1e2a5ee1d7b7
+> Palette de couleurs utilisée : https://www.colorhunt.co/palette/7c93c355679c1e2a5ee1d7b7
+
+Pour voir un aperçu du site, [cliquez ici](https://adriendeval.github.io/ApplicationBTS-SIO/).
