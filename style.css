@@ -5,9 +5,11 @@ body, button, input {
   cursor : url('mouse/cursor-fill.svg') 0 0, auto;
 }
 
-a, button {
+a, button, button:hover, button:focus, button:active, button:disabled, input[type="submit"], input[type="button"] {
   cursor: url('mouse/hand-index-thumb-fill.svg') 0 0, pointer;
 }
+
+
 
 p, span, input, textarea, h1, h2, h3 {
   cursor: url('mouse/cursor-text.svg') 0 0, text;
@@ -111,4 +113,13 @@ input[type="text"], input[type="password"] {
   padding-right: 12px;
   color: #55679C;
   outline: none;
+}
+
+input[type="text"]:hover, input[type="text"]:focus, input[type="text"]:active {
+  box-shadow: 0 0 2px #55679C;
+}
+
+input[type="text"]::placeholder {
+  color: #55679C;
+  opacity: 0.65;
 }
