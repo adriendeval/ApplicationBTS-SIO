@@ -13,7 +13,9 @@ p, span, input, textarea, h1, h2, h3 {
   cursor: url('mouse/cursor-text.svg') 0 0, text;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   color: #1E2A5E;
 }
@@ -32,11 +34,15 @@ header {
 
 footer {
   background-color: #F5F5F5;
-  padding-top: 16px;
+  padding-top: 8px;
   padding-bottom: 8px;
   margin: -8px;
-  margin-bottom: -16px;
+  margin-bottom: -8px;
   text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  box-shadow: gainsboro 0px 0px 16px;
 }
 
 .menu {
@@ -210,4 +216,40 @@ textarea::placeholder {
 
 textarea:hover, textarea:focus, textarea:active {
   box-shadow: 0 0 2px #55679C;
+}
+
+.navigation {
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.navigation tr {
+  text-align: center;
+  border: none;
+}
+
+.navigation td {
+  width: 15%;
+  height: 48px;
+  text-align: center;
+  background-color: #7C93C390;
+}
+
+.navigation td:hover {
+  background-color: #1E2A5E;
+  color: white;
+}
+
+.navigation td.active {
+  font-weight: bold;
+}
+
+body p {
+  margin: 24px;
+  text-align: justify;
 }
