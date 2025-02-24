@@ -5,11 +5,9 @@ body, button, input {
   cursor : url('mouse/cursor-fill.svg') 0 0, auto;
 }
 
-a, button, button:hover, button:focus, button:active, button:disabled, input[type="submit"], input[type="button"], input[type="checkbox"] {
+a, button, button:hover, button:focus, button:active, button:disabled, input[type="submit"], input[type="button"] {
   cursor: url('mouse/hand-index-thumb-fill.svg') 0 0, pointer;
 }
-
-
 
 p, span, input, textarea, h1, h2, h3 {
   cursor: url('mouse/cursor-text.svg') 0 0, text;
@@ -122,20 +120,4 @@ input[type="text"]:hover, input[type="text"]:focus, input[type="text"]:active {
 input[type="text"]::placeholder {
   color: #55679C;
   opacity: 0.65;
-}
-
-input[type="checkbox"] {
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #55679C;
-  border-radius: 3px;
-}
-
-input[type="checkbox"]:checked {
-  appearance: none;
-  border-radius: 3px;
-  background-color: #55679C;
-  outline: none;
-  content: '';
 }
