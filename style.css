@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-body, button, input, input[type="checkbox"], input[type="radio"], textarea, option, select {
+body, button, input {
   font-family: 'Space Grotesk', sans-serif;
   cursor : url('mouse/cursor-fill.svg') 0 0, auto;
 }
 
-a, button, button:hover, button:focus, button:active, button:disabled, input[type="submit"], input[type="button"], select, option {
+a, button {
   cursor: url('mouse/hand-index-thumb-fill.svg') 0 0, pointer;
 }
 
@@ -13,9 +13,7 @@ p, span, input, textarea, h1, h2, h3 {
   cursor: url('mouse/cursor-text.svg') 0 0, text;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-left: 20px;
-  margin-right: 20px;
+h1, h2, h3 {
   text-align: center;
   color: #1E2A5E;
 }
@@ -34,15 +32,11 @@ header {
 
 footer {
   background-color: #F5F5F5;
-  padding-top: 8px;
+  padding-top: 16px;
   padding-bottom: 8px;
   margin: -8px;
-  margin-bottom: -8px;
+  margin-bottom: -16px;
   text-align: center;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  box-shadow: gainsboro 0px 0px 16px;
 }
 
 .menu {
@@ -87,7 +81,7 @@ a:active {
 button {
   background-color: white;
   color: #55679C;
-  border: 1.5px solid #55679C;
+  border: 1px solid #55679C;
   border-radius: 3px;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -109,7 +103,7 @@ button:active {
 }
 
 input[type="text"], input[type="password"] {
-  border: 1.5px solid #55679C;
+  border: 1px solid #55679C;
   border-radius: 3px;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -117,139 +111,4 @@ input[type="text"], input[type="password"] {
   padding-right: 12px;
   color: #55679C;
   outline: none;
-}
-
-input[type="text"]:hover, input[type="text"]:focus, input[type="text"]:active {
-  box-shadow: 0 0 2px #55679C;
-}
-
-input[type="text"]::placeholder {
-  color: #55679C;
-  opacity: 0.65;
-}
-
-input[type="checkbox"] {
-  appearance: none;
-  width: 18px;
-  height: 18px;
-  border: 1.5px solid #55679C;
-  vertical-align: -6.5px;
-  border-radius: 3px;
-  outline: none;
-  padding: 2px;
-}
-
-input[type="checkbox"]:hover {
-  background-color: #55679C25;
-  content: url('images/check-stroke-purple.svg');
-}
-
-input[type="checkbox"]:checked {
-  background-color: #55679C;
-  content: url('images/check-stroke-white.svg');
-  color: white;
-}
-
-input[type="checkbox"]:checked:hover {
-  background-color: #45517a;
-}
-
-input[type="radio"] {
-  appearance: none;
-  width: 18px;
-  height: 18px;
-  border: 1.5px solid #55679C;
-  vertical-align: -3.5px;
-  border-radius: 50%;
-  outline: none;
-  padding: 4px;
-}
-
-input[type="radio"]:hover {
-  background-color: #55679C25;
-  content: url('images/circle-outline-purple.svg');
-}
-
-input[type="radio"]:checked {
-  background-color: #55679C;
-  content: url('images/circle-outline-white.svg');
-  color: white;
-}
-
-input[type="radio"]:checked:hover {
-  background-color: #45517a;
-}
-
-select {
-  outline: none;
-  color: #1E2A5E;
-  padding: 6px;
-  border: 1.5px solid #55679C;
-  border-radius: 3px;
-}
-
-option {
-  color: #55679C;
-}
-
-option:hover {
-  background-color: #55679C25;
-}
-
-option:active {
-  background-color: #55679C50;
-}
-
-textarea {
-  border: 1.5px solid #55679C;
-  border-radius: 3px;
-  padding: 8px;
-  color: #55679C;
-  outline: none;
-  resize: none;
-}
-
-textarea::placeholder {
-  color: #55679C;
-  opacity: 0.65;
-}
-
-textarea:hover, textarea:focus, textarea:active {
-  box-shadow: 0 0 2px #55679C;
-}
-
-.navigation {
-  justify-content: center;
-  margin-top: -10px;
-  margin-bottom: 16px;
-  margin-right: 16px;
-  text-align: center;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.navigation tr {
-  text-align: center;
-  border: none;
-}
-
-.navigation td {
-  width: 15%;
-  height: 48px;
-  text-align: center;
-  background-color: #7C93C390;
-}
-
-.navigation td:hover {
-  background-color: #1E2A5E;
-  color: white;
-}
-
-.navigation td.active {
-  font-weight: bold;
-}
-
-body p {
-  margin: 24px;
-  text-align: justify;
 }
