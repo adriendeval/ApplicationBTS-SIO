@@ -16,7 +16,7 @@ Vous pouvez suivre l'avancée du projet [sur cette page](https://github.com/user
 
 ## Idée de design (proposé par [@adriendeval](https://github.com/adriendeval))
 Pour voir un aperçu du site, <a href="https://adriendeval.github.io/ApplicationBTS-SIO/" target="_blank">cliquez ici</a>.
-> Palette de couleurs utilisée : https://www.colorhunt.co/palette/7c93c355679c1e2a5ee1d7b7
+> Palette de couleurs utilisée (modifiable si besoin) : https://www.colorhunt.co/palette/7c93c355679c1e2a5ee1d7b7
 
 ## Fonctionnalités principales
 - Un site Web responsive, voire une application mobile ?
